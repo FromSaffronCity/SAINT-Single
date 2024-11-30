@@ -1,2 +1,6 @@
 # SAINT-Single
-This repository is for my M.Sc. thesis project on the development of a single-sequence-based protein structural properties prediction method named SAINT-Single.
+This repository is for my M.Sc. thesis project, titled **Protein Secondary Structure and Backbone Torsion Angle Prediction using Multitask Learning**. I worked on this project under the supervision of Dr. Md. Shamsuzzoha Bayzid while completing my M.Sc. thesis requirement at the department of CSE in BUET. As an outcome of this project, we propose two ensemble-based prediction methods, named **SAINT-Evolve** and **SAINT-Single**. Both these methods are multitask learning-based, and they predict protein Q8 secondary structure as well as backbone torsion angles from a pool of input features. Among them, **SAINT-Evolve** is *evolutionary-feature-based*, and **SAINT-Single** is *single-sequence-based*. In this project, we put our focus on coming up with a more challenging *solely* primary-sequence-dependent method for protein structural properties prediction, the result of which is the development of **SAINT-Single**.
+
+This repository is currently under construction, for which I offer my sincere apology. I will gradually add to this repository a standalone version of **SAINT-Single** and probably of **SAINT-Evolve**. For the time being, you will find in the `experimental_notebooks` folder some Jupyter notebooks that I wrote and used for dataset generation, prediction model training, and benchmarking during the experimentation phase of this project.
+
+Thank you!
